@@ -1,166 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+   <meta name="robots" content="noindex">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Currículo</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Currículo - Jeiel Lima Miranda</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </head>
+<body class="bg-gray-100 text-gray-900 p-6">
 
-<body>
-
-    <script src="qrcode.min.js"></script>
-  
-    <header>
-    <img src="profile.jpg" alt="Jeiel" class="img"/>
-    <h1>Jeiel Lima Miranda</h1>
-    <h2>Especializado em Segurança Digital</h2>
+  <header class="flex flex-col items-center mb-8">
+    <img src="profile.jpg" alt="Jeiel" class="rounded-full w-32 h-32 mb-4"/>
+    <h1 class="text-4xl font-bold">Jeiel Lima Miranda</h1>
+    <h2 class="text-2xl text-gray-600">Especializado em Segurança Digital</h2>
   </header>
 
-  <main>
-    <section class="contato">
-      <h2>Contato</h2>
-      <ul>
-        <li><a href="tel:91988544585"><img src="whatsapp.svg" alt="whatsapp">(91) 9 8854-4585</a></li>
-        <li><a href="mailto:jeiel.lima.miranda@gmail.com"><img src="mail.svg" alt="mail">E-mail: jeiel.lima.miranda@gmail.com</a></li>
-        <li><img src="linkedin.svg" alt="LinkedIn">
-        <a href="https://www.linkedin.com/in/jeiel-lima-miranda">LinkedIn</a></li>
-        <p>Idade: 20 anos.</p>
-        <p>Localidade (Estado, Cidade, Bairro): Pará/Ananindeua/Centro.</p>
+  <main class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Contato</h2>
+      <ul class="space-y-3">
+        <li>
+          <a href="tel:91988544585" class="flex items-center space-x-2">
+            <i class="fab fa-whatsapp text-green-500"></i>
+            <span>(91) 9 8854-4585</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:jeiel.lima.miranda@gmail.com" class="flex items-center space-x-2">
+            <i class="fas fa-envelope text-red-500"></i>
+            <span>jeiel.lima.miranda@gmail.com</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jeiel-lima-miranda" class="flex items-center space-x-2">
+            <i class="fab fa-linkedin text-blue-600"></i>
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <p>Idade: 21 anos</p>
+        <p>Localidade: Pará/Ananindeua/Centro</p>
       </ul>
     </section>
 
-    <section class="perfil">
-      <h2>Perfil Profissional</h2>
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Perfil Profissional</h2>
       <p>
         Possuo conhecimentos em sistemas operacionais Windows e Linux, suas variantes, além de experiência em instalação desses sistemas. Também possuo noções básicas de primeiros socorros e prevenção e combate a incêndios. Tenho familiaridade com segurança cibernética, abrangendo aspectos como engenharia social, malwares, anti-malware (antivírus) e tecnologias computacionais, tanto em software quanto em hardware.
       </p>
     </section>
 
-    <section class="formacao">
-        <h2>Formação Acadêmica</h2>
-        
-        <div class="formacao-item">
-          <h3>Instituição: T&T Informática</h3>
-          <h4>Curso: Informática</h4>
-          <p>Ano: 2018</p>
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Formação Acadêmica</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-bold">Instituição: T&T Informática</h3>
+          <h4 class="italic">Curso: Informática (2018)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Instituição: ByLearn</h3>
-          <h4>Curso: Linguagem de Programação Python Básico</h4>
-          <p>Ano: 2020</p>
+        <div>
+          <h3 class="font-bold">Instituição: ByLearn</h3>
+          <h4 class="italic">Curso: Linguagem de Programação Python Básico (2020)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Instituição: Fundação Bradesco</h3>
-          <h4>Curso: Segurança da Informação</h4>
-          <p>Ano: 2020</p>
+        <div>
+          <h3 class="font-bold">Instituição: Fundação Bradesco</h3>
+          <h4 class="italic">Curso: Segurança da Informação (2020)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Instituição: Fundação Bradesco</h3>
-          <h4>Curso: Segurança em Tecnologia da Informação</h4>
-          <p>Ano: 2021</p>
+        <div>
+          <h3 class="font-bold">Instituição: Fundação Bradesco</h3>
+          <h4 class="italic">Curso: Segurança em Tecnologia da Informação (2021)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Instituição: Escola Virtual GOV</h3>
-          <h4>Curso: Segurança e Privacidade do Computador</h4>
-          <p>Ano: 2021</p>
+        <div>
+          <h3 class="font-bold">Instituição: Escola Virtual GOV</h3>
+          <h4 class="italic">Curso: Segurança e Privacidade do Computador (2021)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Lugar da instituição: EAD (Educação a Distância ou Ensino à Distância)</h3>
-          <h4>Curso: Proteção e Combate a Incêndio</h4>
-          <p>Ano: 2021</p>
+        <div>
+          <h3 class="font-bold">Instituição: EAD</h3>
+          <h4 class="italic">Curso: Proteção e Combate a Incêndio (2021)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Instituição: Fundação Bradesco</h3>
-          <h4>Curso: Fundamentos de TI: Hardware e Software</h4>
-          <p>Ano: 2021</p>
+        <div>
+          <h3 class="font-bold">Instituição: Fundação Bradesco</h3>
+          <h4 class="italic">Curso: Fundamentos de TI: Hardware e Software (2021)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Instituição: Fundação Bradesco</h3>
-          <h4>Curso: HTML, CSS e Javascript - Básico</h4>
-          <p>Ano: 2021</p>
+        <div>
+          <h3 class="font-bold">Instituição: Fundação Bradesco</h3>
+          <h4 class="italic">Curso: HTML, CSS e Javascript - Básico (2021)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Instituição: TDI (Técnias de Invasão)</h3>
-          <h4>Curso: Hacker Ético - Segurança da Informação</h4>
-          <p>Ano: 2022</p>
+        <div>
+          <h3 class="font-bold">Instituição: TDI (Técnicas de Invasão)</h3>
+          <h4 class="italic">Curso: Hacker Ético - Segurança da Informação (2022)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Instituição: SEPP (Sistema de Ensino e Preparo Profissional) Cursos</h3>
-          <h4>Curso: Bombeiro Civil</h4>
-          <p>Ano: 2022</p>
+        <div>
+          <h3 class="font-bold">Instituição: SEPP Cursos</h3>
+          <h4 class="italic">Curso: Bombeiro Civil (2022)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Lugar da Instituição: Curso Básico de Atendimento a Emergências (Florianópolis - Santa Catarina)</h3>
-          <p>Ano: 2022</p>
+        <div>
+          <h3 class="font-bold">Curso Básico de Atendimento a Emergências</h3>
+          <p>Florianópolis - Santa Catarina (2022)</p>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Instituição: SEPP (Sistema de Ensino e Preparo Profissional) Cursos</h3>
-          <h4>Curso: Proteção e Combate a Incêndio (EAD)</h4>
-          <p>Ano: 2022</p>
+        <div>
+          <h3 class="font-bold">Instituição: SEPP Cursos</h3>
+          <h4 class="italic">Curso: Proteção e Combate a Incêndio (EAD - 2022)</h4>
         </div>
-        
-        <div class="formacao-item">
-          <h3>Instituição: UNAMA</h3>
-          <h4>Curso: Graduado em Segurança Digital</h4>
-          <p>Ano: 2023</p>
+        <div>
+          <h3 class="font-bold">Instituição: UNAMA</h3>
+          <h4 class="italic">Graduado em Segurança Digital (2023)</h4>
         </div>
+        <div>
+          <h3 class="font-bold">Instituição: UNAMA</h3>
+          <h4 class="italic">Pós-graduado em Segurança Digital (2024)</h4>
+        </div>
+        <div>
+          <h3 class="font-bold">Instituição: Hackers do Bem</h3>
+          <h4 class="italic">Nivelamento (2024)</h4>
+        </div>
+        <div>
+          <h3 class="font-bold">Instituição: Hackers do Bem</h3>
+          <h4 class="italic">Curso Básico (2024)</h4>
+        </div>
+      </div>
+    </section>
 
-        <div class="formacao-item">
-            <h3>Instituição: UNAMA</h3>
-            <h4>Curso: Pós graduado em Segurança Digital</h4>
-            <p>Ano: 2024</p>
-          </div>
-
-          <div class="formacao-item">
-            <h3>Instituição: Hackers do Bem</h3>
-            <h4>Nível do curso: Nivelamento</h4>
-            <p>Ano: 2024</p>
-          </div>
-
-          <div class="formacao-item">
-            <h3>Instituição: Hackers do Bem</h3>
-            <h4>Nível do curso: Básico</h4>
-            <p>Ano: 2024</p>
-          </div>
-        
-      </section>
-      
-
-      <section class="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-          <li>Segurança Digital: Conceitos, técnicas de prevenção, detecção e resposta a incidentes, análise de vulnerabilidades, criptografia, análise forense digital, etc.</li>
-        </ul>
-      </section>
-      
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Habilidades</h2>
+      <ul class="list-disc ml-6">
+        <li>Segurança Digital: Conceitos, técnicas de prevenção, detecção e resposta a incidentes, análise de vulnerabilidades, criptografia, análise forense digital, etc.</li>
+      </ul>
+    </section>
   </main>
 
-  <div id="qrcode"></div>
+  <div id="qrcode" class="mt-8 flex justify-center"></div>
 
+  <footer class="text-center mt-8">
+    <p>&copy; Jeiel Lima Miranda - 2024</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
   <script>
     var url = "https://jeiel-lima-miranda.vercel.app/#id";
-
     var qrcodeElement = document.getElementById("qrcode");
-
-    var qrcode = new QRCode(qrcodeElement, {
-      text: url,
-      width: 128,
-      height: 128,
-      colorDark: "#000000",
-      colorLight: "#ffffff",
-    });
+    var qrcode = new QRCode(qrcodeElement, { text: url, width: 128, height: 128, colorDark: "#000000", colorLight: "#ffffff" });
 
     function getPathname() {
       return window.location.hash;
@@ -174,10 +152,5 @@
 
     showDialogIfHashId();
   </script>
-
-  <footer>
-    <p>&copy; Jeiel Lima Miranda - 2024</p>
-  </footer>
-
 </body>
 </html>
