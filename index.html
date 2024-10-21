@@ -151,6 +151,11 @@
     }
 
     showDialogIfHashId();
+// Imprime versão simplificada.
+window.addEventListener('beforeprint', function(event) {
+  event.preventDefault();
+  window.location.href = 'simples.html';
+});
   </script>
 </body>
 </html>
