@@ -3,8 +3,9 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	plugins: [react()],
-	server: {
-		allowedHosts: true,
-	},
+  base: "/https://github.com/Jeiel0rbit/jeiel-lima-miranda/",
+  plugins: [react()],
+  server: {
+    allowedHosts: true,
+  },
 });
