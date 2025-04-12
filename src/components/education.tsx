@@ -50,13 +50,23 @@ const educationData = [
     year: "2022",
   },
   {
-    institution: "SEPP Cursos",
-    course: "Proteção e Combate a Incêndio (EAD)",
+    institution: "Bombeiro Civil Santa Catarina",
+    course: "Curso de Atendimento a Emergências",
     year: "2022",
   },
   {
     institution: "UNAMA",
     course: "Graduado em Segurança Digital",
+    year: "2023",
+  },
+  {
+     institution: "O Novo Investigador",
+    course: "Investigação Digital",
+    year: "2023",
+  },
+  {
+     institution: "Slackjeff",
+    course: "Programação em Shell Script",
     year: "2023",
   },
   {
