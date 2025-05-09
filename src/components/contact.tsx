@@ -23,7 +23,7 @@ export const Contact = () => {
         </li>
         <li className="flex items-center gap-2">
           <Icon icon="lucide:user" className="text-default-500" />
-          <span>Idade: 21 anos</span>
+          <span>Idade: 22 anos</span>
         </li>
         <li className="flex items-center gap-2">
           <Icon icon="lucide:globe" className="text-default-500" />
